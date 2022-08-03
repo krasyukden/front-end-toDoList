@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  text-align: center;
+  margin-top: 20px;
+  color: #1976d2;
+}
+.homeWrapper{
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.filter{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20px;
+  margin-bottom: -15px;
+}
+ul {
+  list-style: none;
+}
+.list li{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+  background-color: #0000ff45;
+  border-radius: 5px;
+  width: 729px;
+  min-height: 100px;
+  padding-left: 10px;
+  overflow: auto;
+}
+.button{
+ height: 56px;
+}
+.text{
+  margin: 10px;
+}
+
+.delete{
+  color: red;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+input:checked + span{ /*следующ span*/
+text-decoration: line-through;
+}
+
+.edit {
+  height: 40px;
+  width: 400px;
+}
+.inputForm{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+}
+.toDo{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px;
+  margin-left: 44px;
+}
+.page{
+  display: flex;
+  justify-content: center;
+}
+.error{
+  margin: 100px 200px 50px 400px;
+  font-weight: bold;
+  font-size: 24px;
+}
